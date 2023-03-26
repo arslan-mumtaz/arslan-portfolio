@@ -1,6 +1,6 @@
 import self from "../img/self1.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
+import mock1 from "../img/blocknotes.png"
+import mock2 from "../img/lighthouse.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
@@ -8,8 +8,9 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(33, 212, 253)", "rgb(209, 155, 238)"];
 /*
+background: -webkit-linear-gradient(135deg, rgb(33, 212, 253), rgb(209, 155, 238));
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
 the site.
@@ -78,11 +79,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Arslan. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-    skills:
+    bio: "Hello! I'm Arslan.  ⚡ I'm a software engineer focusing on Front-End web and emerging tech such as VR, AR, Web 3.0 and Blockchain. I am deeply committed to staying up-to-date with the latest trends and technologies in the blockchain and Web 3.0 space. Well-versed in the use of smart contracts, decentralized storage solutions, and other cutting-edge tools and technologies. He is also skilled in a range of programming languages including Solidity, JavaScript, Python, and Ruby on Rails.",
+       skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'web3.0', 'solidity', 'ethers.js', 'hardhat', 'truffle', 'git', 'github', 'bootstrap', 'html5', 'css3', 'material UI'],
+            exposedTo: ['figma', 'adobe xd', 'adobe illustrator']
         }
     ,
     hobbies: [
@@ -91,8 +92,8 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Soccer',
+            emoji: '⚽'
         },
         {
             label: 'movies',
@@ -107,33 +108,33 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "Block Notes ",
             live: "#", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
+            title: "Lisht house",
             live: "#",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/",
             image: mock2
         },
         {
             title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "#",
+            source: "https://github.com/",
             image: mock3
         },
         {
             title: "Project 4",
             live: "#",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/",
             image: mock4
         },
         {
             title: "Project 5",
             live: "#",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/",
             image: mock5
         }
     ]
