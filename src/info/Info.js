@@ -1,4 +1,4 @@
-import self from "../img/self1.png"
+import self from "../img/self.png"
 import mock1 from "../img/blocknotes.png"
 import mock2 from "../img/lighthouse.png"
 import mock3 from "../img/mock3.png"
@@ -46,7 +46,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "arslan.mumtaz04@gmail.com"
+            text: <a href="mailto:arslan.mumtaz04@gmail.com">arslan.mumtaz04@gmail.com</a>
         }
     ],
     socials: [
@@ -100,8 +100,8 @@ export const info = {
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'traveling',
+            emoji: '✈️ '
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
@@ -119,23 +119,23 @@ export const info = {
             source: "https://github.com/",
             image: mock2
         },
-        {
-            title: "Project 3",
-            live: "#",
-            source: "https://github.com/",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "#",
-            source: "https://github.com/",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "#",
-            source: "https://github.com/",
-            image: mock5
-        }
+        // {
+        //     title: "Project 3",
+        //     live: "#",
+        //     source: "https://github.com/",
+        //     image: mock3
+        // },
+        // {
+        //     title: "Project 4",
+        //     live: "#",
+        //     source: "https://github.com/",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "#",
+        //     source: "https://github.com/",
+        //     image: mock5
+        // }
     ]
 }
