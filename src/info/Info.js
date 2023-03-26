@@ -1,9 +1,9 @@
 import self from "../img/self.png"
-import mock1 from "../img/blocknotes.png"
-import mock2 from "../img/lighthouse.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import blocknotes from "../img/blocknotes.png"
+import lighthouse from "../img/lighthouse.png"
+import dstreak from "../img/dstreak.png"
+import domainlane from "../img/domainlane.png"
+import metamuze from "../img/metamuze.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -109,33 +109,33 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Block Notes ",
-            live: "#", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "https://blocknotes-new.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            image: blocknotes
         },
         {
-            title: "Lisht house",
-            live: "#",
+            title: "Light house",
+            live: "https://www.lkinc.xyz/",
             source: "https://github.com/",
-            image: mock2
+            image: lighthouse
         },
-        // {
-        //     title: "Project 3",
-        //     live: "#",
-        //     source: "https://github.com/",
-        //     image: mock3
-        // },
-        // {
-        //     title: "Project 4",
-        //     live: "#",
-        //     source: "https://github.com/",
-        //     image: mock4
-        // },
-        // {
-        //     title: "Project 5",
-        //     live: "#",
-        //     source: "https://github.com/",
-        //     image: mock5
-        // }
+        {
+            title: "Dstreak",
+            live: "https://www.dstreak.io/",
+            source: "https://github.com/",
+            image: dstreak
+        },
+        {
+            title: "Domain Lane",
+            live: "https://ryu-nfts.vercel.app/",
+            source: "https://github.com/",
+            image: domainlane
+        },
+        {
+            title: "Meta Muze NFT Marketplace",
+            live: "https://metamuse.vercel.app/",
+            source: "https://github.com/",
+            image: metamuze
+        }
     ]
 }
