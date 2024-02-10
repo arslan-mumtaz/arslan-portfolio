@@ -42,7 +42,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Full Stack Dev at Octaloop"
+            text: "Full Stack Dev at M Tech"
         },
         {
             emoji: "📧",
