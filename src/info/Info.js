@@ -10,6 +10,7 @@ how to make this template work best for you! */
 
 export let colors = ["rgb(33, 212, 253)", "rgb(209, 155, 238)"];
 /*
+linear-gradient(to right, rgb(118, 119, 47), rgb(39, 238, 7)); green new fav!!!
 background: -webkit-linear-gradient(135deg, rgb(33, 212, 253), rgb(209, 155, 238));
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -31,7 +32,7 @@ export const info = {
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://arslan-mumtaz.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
             text: 'fueled by coffee'
@@ -79,10 +80,10 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Arslan.  ⚡ I'm a software engineer focusing on Front-End web and emerging tech such as VR, AR, Web 3.0 and Blockchain. I am deeply committed to staying up-to-date with the latest trends and technologies in the blockchain and Web 3.0 space. Well-versed in the use of smart contracts, decentralized storage solutions, and other cutting-edge tools and technologies. He is also skilled in a range of programming languages including Solidity, JavaScript, Python, and Ruby on Rails.",
+    bio: "Hello! I'm Arslan.  ⚡ I'm a software engineer focusing on Front-End web and emerging tech such as VR, AR, Web 3.0 and Blockchain. I am deeply committed to staying up-to-date with the latest trends and technologies in the blockchain and Web 3.0 space. Well-versed in the use of smart contracts, decentralized storage solutions, and other cutting-edge tools and technologies.I am also skilled in a range of programming languages including Solidity, JavaScript, Python, and Ruby on Rails.",
        skills:
         {
-            proficientWith: ['javascript', 'react', 'web3.0', 'solidity', 'ethers.js', 'hardhat', 'truffle', 'git', 'github', 'bootstrap', 'html5', 'css3', 'material UI'],
+            proficientWith: ['javascript', 'react', , 'flutter', 'web3.0', 'solidity', 'ethers.js', 'hardhat', 'truffle', 'git', 'github', 'bootstrap', 'html5', 'css3', 'material UI'],
             exposedTo: ['figma', 'adobe xd', 'adobe illustrator']
         }
     ,
