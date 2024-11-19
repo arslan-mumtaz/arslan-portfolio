@@ -1,6 +1,6 @@
 import self from "../img/self.png"
 import buycyprus from "../img/p1.png"
-import aitravel from "../img/p2.png"
+//import aitravel from "../img/p2.png"
 import shopify1 from "../img/p3.png"
 import shopify2 from "../img/p4.png"
 import shopify3 from "../img/p5.png"
