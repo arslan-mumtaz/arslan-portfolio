@@ -1,8 +1,20 @@
 import self from "../img/self.png"
-import project1 from "../img/mock1.png"
-import project2 from "../img/mock2.png"
-import project3 from "../img/mock3.png"
-import project4 from "../img/mock4.png"
+import buycyprus from "../img/p1.png"
+import aitravel from "../img/p2.png"
+import shopify1 from "../img/p3.png"
+import shopify2 from "../img/p4.png"
+import shopify3 from "../img/p5.png"
+import shopify4 from "../img/p6.png"
+import aitools from "../img/portfolio/aitools.png"
+import aicrop from "../img/portfolio/aicrop.png"
+import thinklab from "../img/portfolio/ThinkLab.png"
+import nftwebsite from "../img/portfolio/nftmarketplace.png"
+import propetyportal    from "../img/portfolio/realsetate.png"
+import homeandgardenmasters from "../img/portfolio/homegardend.png"
+import travelwbesite from "../img/portfolio/TravelVlog.png"
+import calmewebsite from "../img/portfolio/calmewebsite.png"
+import sunnyswap from "../img/portfolio/sunnuswap.png"
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -42,7 +54,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Full Stack Dev at MTech"
+            text: "Full Stack Dev at Mehdi Technologies"
         },
         {
             emoji: "📧",
@@ -51,24 +63,14 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com/arsal_me",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
+            link: "https://www.linkedin.com/in/jack-britton-aka-arsal-281139145/",
+            icon: "fa fa-linkedin",
+            label: 'linkedin'
         },
         {
             link: "https://github.com/arslan-mumtaz",
             icon: "fa fa-github",
             label: 'github'
-        },
-        {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
         },
         {
             link: "https://twitter.com/akaarsal",
@@ -108,28 +110,89 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "Buycyprus Property Portal",
+            live: "https://www.buycyprus.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: buycyprus
+        },
+        {
+            title: "AI Tools Portal",
             live: "#", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: project1
+            image: aitools
         },
         {
-            title: "Project 2",
+            title: "AI Crops Prediction SaaS",
             live: "#",
             source: "https://github.com/",
-            image: project2
+            image: aicrop
         },
         {
-            title: "Project 3",
-            live: "#",
+            title: "AI Think Lab Project",
+            live: "https://www.atlgpt.io/",
             source: "https://github.com/",
-            image: project3
+            image: thinklab
         },
         {
-            title: "Project 4",
+            title: "NFT Website Development",
+            live: "https://nf-ts-market-place-2.vercel.app/",
+            source: "https://github.com/",
+            image: nftwebsite
+        },
+        {
+            title: "Houzing Property Web Portal",
+            live: "https://real-estate-page-phmn.vercel.app/",
+            source: "https://github.com/",
+            image: propetyportal
+        },
+        {
+            title: "Home & Garden Website",
+            live: "https://www.homeandgardenmasters.co.uk",
+            source: "https://github.com/",
+            image: homeandgardenmasters
+        },
+        {   
+            title: "Sunny Swap NFT Trading App",
+            live: "https://sunnyswap.io/",
+            source: "https://github.com/",
+            image: sunnyswap
+        },
+        {
+            title: "CalmMe Website Development",
+            live: "https://calmme.ai/",
+            source: "https://github.com/",
+            image: calmewebsite
+        },{
+            title: "MERN Stack Travel Portal",
+            live: "https://travel-vlog-pink.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: travelwbesite
+        },
+        {
+            title: "JulxLabel Shopify Wesbite for Cloting",
+            live: "https://jluxlabel.com/",
+            source: "https://github.com/",
+            image: shopify1
+        },
+        {
+            title: "Shopify Store",
             live: "#",
             source: "https://github.com/",
-            image: project4
+            image: shopify2
+        },
+        {
+            title: "Shopify Store Rich & Poor",
+            live: "https://richandrulerco.com/",
+            source: "https://github.com/",
+            image: shopify3
+        },
+        {
+            title: "Bridal Dress Shopify Store",
+            live: "https://wildwoodbridal.com/",
+            source: "https://github.com/",
+            image: shopify4
         }
+
+        
     ]
 }
