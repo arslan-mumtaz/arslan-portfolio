@@ -1,19 +1,41 @@
 import self from "../img/self.png"
 //import aitravel from "../img/p2.png"
-import shopify1 from "../img/p3.png"
-import shopify2 from "../img/p4.png"
-import shopify3 from "../img/p5.png"
-import shopify4 from "../img/p6.png"
-import buycyprus from "../img/portfolio/buycyprus.png"
-import aitools from "../img/portfolio/aitools.png"
-import aicrop from "../img/portfolio/aicrop.png"
-import thinklab from "../img/portfolio/ThinkLab.png"
-import nftwebsite from "../img/portfolio/nftmarketplace.png"
-import propetyportal    from "../img/portfolio/realsetate.png"
-import homeandgardenmasters from "../img/portfolio/homegardend.png"
-import travelwbesite from "../img/portfolio/TravelVlog.png"
-import calmewebsite from "../img/portfolio/calmewebsite.png"
-import sunnyswap from "../img/portfolio/sunnuswap.png"
+
+import buycyprus from "../img/buycyprus.png" // https://www.buycyprus.com
+import aitools from "../img/aitools.png" //
+import aicrop from "../img/cropsai.png"  // 
+import amazonai from "../img/AmazonAi.png"  // https://productlisting.ai/
+import thinklab from "../img/thinklab.png"  // https://www.atlgpt.io/
+import nftmarketplace from "../img/nftmrketplace.png"  // https://nf-ts-market-place-2.vercel.app/
+import houzing from "../img/houzing.png"  //  https://real-estate-page-phmn.vercel.app/
+import homegarden from "../img/homeandgarden.png" // https://homeandgardenmasters.co.uk/
+import sunnyswap from "../img/sunnyswap.png"  // https://sunnyswap.io/ Web3
+import calmme from "../img/calmme.png"  // https://calmme.ai/ React.js 
+import travlog from "../img/trvalog.png"  // https://travel-vlog-pink.vercel.app/ React.js Travel Portal
+import rentoor from "../img/rentoor.png" // https://rentoor.vercel.app/ AI SaaS Tool
+import longines from "../img/longines.png"   // https://www.longines.com/ Next.js
+import roamaround from "../img/roamaround.png" //https://roamaround.app/ AI Tool
+import wedding from "../img/wedding.png"  // Shopify Store
+import jluxlabel from "../img/jluxlabel.png"  //https://jluxlabel.com/ Shopify 
+import richandrulerco from "../img/richandruler.png"  //https://richandrulerco.com/ Shopify 
+import nakedcashmere from "../img/naked.png" //https://www.nakedcashmere.com/  Shopify
+import alphardgolf from "../img/alphardgolf.png" //https://alphardgolf.com/ Shopify
+import pianomovingusa from "../img/pianomoveusa.png" //https://www.pianomovingusa.com/ Wordpress
+import newageafterschool from "../img/newageafterschool.png"  //https://newageafterschool.com/ Wordpress
+import renewablefirst from "../img/renewableenergy.png" //https://renewablesfirst.org/ Wordpress
+
+
+// import shopify2 from "../img/style3.png"
+// import shopify3 from "../img/p5.png"
+// import shopify1 from "../img/portfolio/aitools.png"
+// import aicrop from "../img/portfolio/aicrop.png"
+// import thinklab from "../img/portfolio/ThinkLab.png"
+// import nftwebsite from "../img/portfolio/nftmarketplace.png"
+// import propetyportal    from "../img/portfolio/realsetate.png"
+// import homeandgardenmasters from "../img/portfolio/homegardend.png"
+// import travelwbesite from "../img/portfolio/TravelVlog.png"
+// import calmewebsite from "../img/portfolio/calmewebsite.png"
+// import sunnyswap from "../img/portfolio/sunnuswap.png"
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -128,6 +150,12 @@ export const info = {
             image: aicrop
         },
         {
+            title: "AI Product Listing on Amazon",
+            live: "https://productlisting.ai/",
+            source: "https://github.com/",
+            image: amazonai
+        },
+        {
             title: "AI Think Lab Project",
             live: "https://www.atlgpt.io/",
             source: "https://github.com/",
@@ -137,19 +165,19 @@ export const info = {
             title: "NFT Website Development",
             live: "https://nf-ts-market-place-2.vercel.app/",
             source: "https://github.com/",
-            image: nftwebsite
+            image: nftmarketplace
         },
         {
             title: "Houzing Property Web Portal",
             live: "https://real-estate-page-phmn.vercel.app/",
             source: "https://github.com/",
-            image: propetyportal
+            image: houzing
         },
         {
             title: "Home & Garden Website",
             live: "https://www.homeandgardenmasters.co.uk",
             source: "https://github.com/",
-            image: homeandgardenmasters
+            image: homegarden
         },
         {   
             title: "Sunny Swap NFT Trading App",
@@ -161,36 +189,77 @@ export const info = {
             title: "CalmMe Website Development",
             live: "https://calmme.ai/",
             source: "https://github.com/",
-            image: calmewebsite
+            image: calmme
         },{
             title: "MERN Stack Travel Portal",
             live: "https://travel-vlog-pink.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: travelwbesite
+            image: travlog
+        },
+        ,{
+            title: "MERN Stack Rentoor Website",
+            live: "https://rentoor.vercel.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: rentoor
+        },{
+            title: "MERN Stack Watch Online Store",
+            live: "https://www.longines.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: longines
         },
         {
-            title: "JulxLabel Shopify Wesbite for Cloting",
-            live: "https://jluxlabel.com/",
-            source: "https://github.com/",
-            image: shopify1
-        },
-        {
-            title: "Shopify Store",
-            live: "#",
-            source: "https://github.com/",
-            image: shopify2
-        },
-        {
-            title: "Shopify Store Rich & Poor",
-            live: "https://richandrulerco.com/",
-            source: "https://github.com/",
-            image: shopify3
+            title: "Roam Around AI Travel Planner",
+            live: "https://roamaround.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: roamaround
         },
         {
             title: "Bridal Dress Shopify Store",
             live: "https://wildwoodbridal.com/",
             source: "https://github.com/",
-            image: shopify4
+            image: wedding
+        },
+        {
+            title: "JulxLabel Shopify Wesbite for Cloting",
+            live: "https://jluxlabel.com/",
+            source: "https://github.com/",
+            image: jluxlabel
+        },
+        {
+            title: "Rich&Ruler Shopify Store ",
+            live: "https://richandrulerco.com/",
+            source: "https://github.com/",
+            image: richandrulerco
+        },
+        {
+            title: "Nakedcashmere Clothing Store",
+            live: "https://www.nakedcashmere.com",
+            source: "https://github.com/",
+            image: nakedcashmere
+        },
+        {
+            title: "Golf Shopify Store",
+            live: "https://alphardgolf.com/",
+            source: "https://github.com/",
+            image: alphardgolf
+        },
+        {
+            title: "Piano Moving Website Wordpress",
+            live: "https://www.pianomovingusa.com",
+            source: "https://github.com/",
+            image: pianomovingusa
+        },
+        {
+            title: "Wordpress Website for a School",
+            live: "https://newageafterschool.com",
+            source: "https://github.com/",
+            image: newageafterschool
+        },
+        {
+            title: "Solar Energy Wordpress Website",
+            live: "https://renewablesfirst.org",
+            source: "https://github.com/",
+            image: renewablefirst
         }
 
         
